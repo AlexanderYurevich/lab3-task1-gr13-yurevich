@@ -30,11 +30,15 @@ char *findMedian(struct Car *cars, int size) {
   return cars[size / 2].brand;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
+  if(argc != 15){
+      printf("Wrong number of arguments\n");
+      return -1;
+  }
   struct Car cars[7];
   for (int i = 0; i < 7; i++) {
-    printf("Enter brand and cost of a car\n");
-    int i = scanf("%s %d", cars[i].brand, &cars[i].cost);
+      cars[i].brand = argv[2*i+1];
+      cars[i].cost = atoi(argv[2*i+2]);
   }
   printf("The median is %s\n", findMedian(cars, 7));
   return 0;

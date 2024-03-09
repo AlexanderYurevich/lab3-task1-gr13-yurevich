@@ -1,0 +1,42 @@
+{
+  "files": {
+    "src/main.c": [
+      {
+        "id": "ebadd582-eb9e-4872-8828-1a3afc8c3e1e",
+        "line": 20,
+        "version": 669,
+        "index": 426
+      },
+      {
+        "id": "153ec61f-f07f-4292-85c0-6053c426c973",
+        "line": 33,
+        "version": 670,
+        "index": 656
+      },
+      {
+        "id": "11ca804d-3c4d-4b29-8e4e-5e6d86ffa11a",
+        "line": 34,
+        "version": 669,
+        "index": 669
+      },
+      {
+        "id": "97c1392f-f5ff-49c5-ac0b-398ff3ce46cd",
+        "line": 35,
+        "version": 669,
+        "index": 691
+      },
+      {
+        "id": "e6d36849-84d8-4dbe-a766-f6a7b33d838e",
+        "line": 36,
+        "version": 669,
+        "index": 723
+      },
+      {
+        "id": "162d80ce-254d-4926-8f50-954f8128fa27",
+        "line": 37,
+        "version": 669,
+        "index": 770
+      }
+    ]
+  }
+}
