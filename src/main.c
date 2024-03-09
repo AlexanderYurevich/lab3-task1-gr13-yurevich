@@ -24,3 +24,18 @@ void sortCars(struct Car *cars, int size) {
       }
     }
 }
+
+char *findMedian(struct Car *cars, int size) {
+  sortCars(cars, size);
+  return cars[size / 2].brand;
+}
+
+int main() {
+  struct Car cars[7];
+  for (int i = 0; i < 7; i++) {
+    printf("Enter brand and cost of a car\n");
+    int i = scanf("%s %d", cars[i].brand, &cars[i].cost);
+  }
+  printf("The median is %s\n", findMedian(cars, 7));
+  return 0;
+}
